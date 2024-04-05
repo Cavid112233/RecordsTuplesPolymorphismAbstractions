@@ -32,11 +32,11 @@ namespace RecordsTuplesPolymorphismAbstractions
                                 int inChoice;
                                 do
                                 {
-                                    Console.WriteLine("1. Comment yarat:");
-                                    Console.WriteLine("2. Commentlere bax:");
-                                    Console.WriteLine("3. Commente bax:");
-                                    Console.WriteLine("4. Commenti sil:");
-                                    Console.WriteLine("5. Commenti guncellesdir:");
+                                    Console.WriteLine("1.1 Comment yarat:");
+                                    Console.WriteLine("1.2 Commentlere bax:");
+                                    Console.WriteLine("1.3 Commente bax:");
+                                    Console.WriteLine("1.4 Commenti sil:");
+                                    Console.WriteLine("1.5 Commenti guncellesdir:");
                                     Console.WriteLine("0. Menyuya qayit:");
 
                                     if (int.TryParse(Console.ReadLine(), out inChoice))
