@@ -45,12 +45,14 @@ namespace Core.Models
         {
 
         }
-        public Blog(int id, string title, string description)
+        public Blog(string title, string description)
         {
-            _id = id;
+            _id++;
+            Id = _id;
             Title = title;
             Description = description;
         }
+
         public override string ToString()
         {
             return $"Id:{Id} Title:{Title} Description:{Description}";
