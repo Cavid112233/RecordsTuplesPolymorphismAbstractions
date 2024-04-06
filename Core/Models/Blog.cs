@@ -20,7 +20,7 @@ namespace Core.Models
             }
             set
             {
-                if(value.Length > 0 && value.Length < 5)
+                if(value.Length > 5)
                 {
                     _title = value;
                 }
