@@ -34,7 +34,7 @@ namespace Core.Models
             }
             set
             {
-                if(value.Length > 0 && value.Length < 8)
+                if(value.Length > 8)
                 {
                     _description = value;
                 }
